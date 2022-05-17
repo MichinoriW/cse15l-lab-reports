@@ -1,11 +1,17 @@
 # Streamlining ssh Configuration
-![First error](sshConfigError.png)
-- Unfortunately, I am unable to log into the ssh server. As such, I am unable to complete this task. 
+![config file](configFile.png)
+![alias log in](aliasLog.png)
+![alias command](aliasCommand.png)
+- We make it easier for use to log into the ssh server. We can make our own way to log in 
+
 
 # Setup Github Access from ieng6
-![Second Error](githubServerError.png)
-- Unfortunately, I also seem to have an error here. I can't seem to be able to use the 'git" commands with the server. If I don't use the server, then I am able to commit and push using the command line, (though for some reason, the terminal does not show where I put the command).
+![public key](publicKey.png)
+![private key](keyServer.png)
+- We should be able use git commands from ieng6. However, I can't for some reason... (I also tried to make multiple keys here, didn't work)
 
 # Copy whole directories with `scp -r`
-![Third Error](scpServerError.png)
-- I have a similar problem with that of the first part of the lab. I am  unable to log into the ssh server.
+![copy repo to server](copyServer.png)
+![compile and run in server](logCompile.png)
+![run and compile in one line](commandOneLIne.png)
+- I think that this is pretty self-explanitory. We copy the directory from the client to the server.
