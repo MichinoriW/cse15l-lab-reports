@@ -6,10 +6,17 @@
 ![mySnippet1](snippet1.png)
 ![mySnippet2](snippet2.png)
 ![mySnippet3](snippet3.png)
+The expected output for snippet 1 is [`google.com, google.com, ucsd.edu].
 
-# My Code
+The expected output for snippet two is [a.com, `a.com(()), example.com].
+
+The expected output for snippet three is [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, https://cse.ucsd.edu/].
+
 ![mytestProof](testProof.png)
-- All the tests seem to pass. I am not sure on what I am supposed to explain for code changes. I took Matthew's MarkdownParse code, as it was the most updated, and it just worked. I would say that all the tests work as we made a lot of test cases that produced errors, and fixed them.
+- All our tets work. For snippet 1, we need to keep track of whether something is in front of the brackets. Our code already keeps track of whether there is something in front of the brackets.
+- For snippet 2, we need to keep track of parenthesis. Our code already
+keeps track of the parenthesis.
+- for snippet 3, we need to keep track of newlines. Our code already keeps track of them.
 
 # Other groups's code
 ![otherTestProof](otherTestProof.png)
