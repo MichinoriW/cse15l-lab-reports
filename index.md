@@ -9,5 +9,6 @@
 
 [lab report 4 week 8](https://michinoriw.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
+[lab report 5 week 10](https://michinoriw.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
 
 ![Hello](https://hddesktopwallpapers.in/wp-content/uploads/2015/06/landscape-pictures.jpg)
